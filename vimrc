@@ -22,6 +22,12 @@ set incsearch
 "Higlights matches while searching.
 set hlsearch
 
+"Show the current mode on the last line
+set showmode
+
+"Show partial commands while typing in
+set showcmd
+
 "Deactivate arrow keys
 map <Up> <Nop>
 map <Down> <Nop>
