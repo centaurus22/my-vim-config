@@ -10,8 +10,11 @@ syntax on
 "therefore they do not need to be saved before that.
 set hidden
 
-"Show relative numbers as line numbers except for the current line
+"show relative numbers as line numbers except for the current line
 set number relativenumber
+
+"show the position of the cursor at the bottom of the buffer window
+set ruler
 
 "Deactivate arrow keys
 map <Up> <Nop>
