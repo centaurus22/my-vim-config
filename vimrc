@@ -16,6 +16,12 @@ set number relativenumber
 "show the position of the cursor at the bottom of the buffer window
 set ruler
 
+"While searching move the cursor to the first match and highlight it
+set incsearch
+
+"Higlights matches while searching.
+set hlsearch
+
 "Deactivate arrow keys
 map <Up> <Nop>
 map <Down> <Nop>
