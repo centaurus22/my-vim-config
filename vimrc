@@ -11,3 +11,7 @@ map <Right> <Nop>
 "for specific file types
 filetype plugin indent on
 syntax on
+
+"buffers are not unloaded when switching to another file.
+"therefore they do not need to be saved before that.
+set hidden
