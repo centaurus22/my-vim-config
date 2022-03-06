@@ -17,6 +17,9 @@ set number relativenumber
 "Adjust color scheme of line numbering
 highlight LineNr ctermbg=black ctermfg=grey cterm=bold
   
+"Adjust color of color column.
+highlight ColorColumn ctermbg=magenta
+
 "show the position of the cursor at the bottom of the buffer window
 set ruler
 
