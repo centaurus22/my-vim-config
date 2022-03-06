@@ -32,8 +32,11 @@ set showmode
 "Show partial commands while typing in
 set showcmd
 
-"Enable auto completion after pressing <Tab> in Command mode
+"Enable auto completion menu after pressing <Tab> in Command mode
 set wildmenu
+
+"Set command history to 1000 commands
+set history=1000
 
 "Deactivate arrow keys
 map <Up> <Nop>
