@@ -7,4 +7,4 @@ set textwidth=120
 
 "Mark the 81th character in a line as color column. So, just the lines with
 "more than 80 characters are marked. 
-call matchadd('ColorColumn', '\%81v', 100);
+call matchadd('ColorColumn', '\%81v', 100)

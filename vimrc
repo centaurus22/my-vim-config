@@ -41,6 +41,11 @@ set wildmenu
 "Set command history to 1000 commands
 set history=1000
 
+"Set the searchpath for find and other commands to the current directory and
+"all children. Ignore binary files.
+set path=.,**
+set wildignore=*.png,*.jpeg,*.jpg
+
 "Deactivate arrow keys
 map <Up> <Nop>
 map <Down> <Nop>
