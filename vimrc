@@ -6,8 +6,9 @@ set nocompatible
 filetype plugin indent on
 syntax on
 
-"buffers are not unloaded when switching to another file.
-"therefore they do not need to be saved before that.
+"Buffers are not unloaded when switching to another file.
+"Therefore they do not need to be saved before that. Also the file explorer
+"stays in a buffer if opened.
 set hidden
 
 "show relative numbers as line numbers except for the current line
@@ -27,6 +28,9 @@ set showmode
 
 "Show partial commands while typing in
 set showcmd
+
+"Enable auto completion after pressing <Tab> in Command mode
+set wildmenu
 
 "Deactivate arrow keys
 map <Up> <Nop>
