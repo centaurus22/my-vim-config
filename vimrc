@@ -14,6 +14,9 @@ set hidden
 "show relative numbers as line numbers except for the current line
 set number relativenumber
 
+"Adjust color scheme of line numbering
+highlight LineNr ctermbg=black ctermfg=grey cterm=bold
+  
 "show the position of the cursor at the bottom of the buffer window
 set ruler
 
