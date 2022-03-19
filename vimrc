@@ -1,3 +1,7 @@
+"***********
+"* GENERAL *
+"***********
+
 "We want to use vim and not vi
 set nocompatible
 
@@ -45,6 +49,10 @@ set history=1000
 "all children. Ignore binary files.
 set path=.,**
 set wildignore=*.png,*.jpeg,*.jpg
+
+"****************
+"* KEY MAPPINGS *
+"****************
 
 "Deactivate arrow keys
 map <Up> <Nop>
