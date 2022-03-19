@@ -1,3 +1,7 @@
+"***********
+"* GENERAL *
+"***********
+
 "We want to use vim and not vi
 set nocompatible
 
@@ -45,6 +49,22 @@ set history=1000
 "all children. Ignore binary files.
 set path=.,**
 set wildignore=*.png,*.jpeg,*.jpg
+
+
+"*********
+"* NETRW *
+"*********
+
+"Disable the netrw banner
+let g:netrw_banner = 0
+
+"Show tree listing in netrw
+let g:netrw_liststyle = 3
+
+
+"****************
+"* KEY MAPPINGS *
+"****************
 
 "Deactivate arrow keys
 map <Up> <Nop>
