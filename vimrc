@@ -50,16 +50,21 @@ set history=1000
 set path=.,**
 set wildignore=*.png,*.jpeg,*.jpg
 
+"While moving the cursor the gap between the cursor and the border is always 
+"five chars if possible.
+set scrolloff=5
+set sidescrolloff=5
+
 
 "*********
 "* NETRW *
 "*********
 
 "Disable the netrw banner
-let g:netrw_banner = 0
+let g:netrw_banner=0
 
 "Show tree listing in netrw
-let g:netrw_liststyle = 3
+let g:netrw_liststyle=3
 
 
 "****************
