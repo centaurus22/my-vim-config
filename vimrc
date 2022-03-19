@@ -18,12 +18,6 @@ set hidden
 "show relative numbers as line numbers except for the current line
 set number relativenumber
 
-"Adjust color scheme of line numbering
-highlight LineNr ctermbg=black ctermfg=grey cterm=bold
-  
-"Adjust color of color column.
-highlight ColorColumn ctermbg=magenta
-
 "show the position of the cursor at the bottom of the buffer window
 set ruler
 
@@ -54,6 +48,16 @@ set wildignore=*.png,*.jpeg,*.jpg
 "five chars if possible.
 set scrolloff=5
 set sidescrolloff=5
+
+"Display trailing whitespaces and non breaking spaces.
+exec "set listchars=trail:\uB7,nbsp:~"
+set list
+
+"Adjust color scheme of line numbering
+highlight LineNr ctermbg=black ctermfg=grey cterm=bold
+
+"Adjust color of color column.
+highlight ColorColumn ctermbg=magenta
 
 
 "*********
