@@ -5,7 +5,7 @@ autocmd BufEnter *.php setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab a
 "automatically.
 autocmd BufEnter *.php setlocal textwidth=120
 
-"Add the keyboard shortcut ',2' to invoke the php linter and print the error
+"Add a keyboard shortcut 'tl' to invoke the php linter and print the error
 "text of the first error if available.
 autocmd BufEnter *.php noremap <buffer> ,2 :compiler phplint <bar> :silent make <bar> redraw! <bar> :cfirst<cr>
 

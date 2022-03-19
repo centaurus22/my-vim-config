@@ -3,3 +3,4 @@
 let current_compiler="phplint"
 CompilerSet makeprg=php\ -l\ %
 CompilerSet errorformat=%EPHP\ Parse\ error:%m\ in\ %f\ on\ line\ %l,%CErrors\ parsing%f
+CompilerSet errorformat+=%+GNo\ syntax\ errors%m
