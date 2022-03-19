@@ -50,6 +50,18 @@ set history=1000
 set path=.,**
 set wildignore=*.png,*.jpeg,*.jpg
 
+
+"*********
+"* NETRW *
+"*********
+
+"Disable the netrw banner
+let g:netrw_banner = 0
+
+"Show tree listing in netrw
+let g:netrw_liststyle = 3
+
+
 "****************
 "* KEY MAPPINGS *
 "****************
