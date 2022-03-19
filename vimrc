@@ -50,7 +50,7 @@ set scrolloff=5
 set sidescrolloff=5
 
 "Display trailing whitespaces and non breaking spaces.
-exec "set listchars=trail:\uB7,nbsp:~"
+exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
 set list
 
 "Adjust color scheme of line numbering
