@@ -1,6 +1,3 @@
-"Expand tabs to 4 charactes.
-autocmd BufEnter *.php setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
-
 "Set the maximum line lenght to 120 before vim switches to a new line
 "automatically.
 autocmd BufEnter *.php setlocal textwidth=120
