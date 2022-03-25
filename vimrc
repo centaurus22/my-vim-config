@@ -79,7 +79,13 @@ let g:netrw_liststyle=3
 "****************
 
 "Deactivate arrow keys
-map <Up> <Nop>
-map <Down> <Nop>
-map <Left> <Nop>
-map <Right> <Nop>
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
+"Open the completion menu in the differnet modi
+inoremap ^K ^X^]
+inoremap ^O ^X^O
+inoremap ^L ^X^L
+inoremap ^F ^X^F
