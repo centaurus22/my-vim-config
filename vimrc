@@ -85,7 +85,11 @@ noremap <Left> <Nop>
 noremap <Right> <Nop>
 
 "Open the completion menu in the differnet modi
-inoremap ^K ^X^]
-inoremap ^O ^X^O
-inoremap ^L ^X^L
-inoremap ^F ^X^F
+"Complete words based on ctags.
+inoremap <C-K> <C-X><C-]>
+"Complete commands based on the file type.
+inoremap <C-O> <C-X><C-O>
+"Complete whole lines.
+inoremap <C-L> <C-X><C-L>
+"Complete file names.
+inoremap <C-F> <C-X><C-F>
