@@ -36,6 +36,9 @@ set showcmd
 "Enable auto completion menu after pressing <Tab> in Command mode
 set wildmenu
 
+"Always show the autocompletion menu with additional information
+set completeopt=menuone,popup
+
 "Set command history to 1000 commands
 set history=1000
 
@@ -79,7 +82,17 @@ let g:netrw_liststyle=3
 "****************
 
 "Deactivate arrow keys
-map <Up> <Nop>
-map <Down> <Nop>
-map <Left> <Nop>
-map <Right> <Nop>
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
+"Open the completion menu in the differnet modi
+"Complete words based on ctags.
+inoremap <C-K> <C-X><C-]>
+"Complete commands based on the file type.
+inoremap <C-O> <C-X><C-O>
+"Complete whole lines.
+inoremap <C-L> <C-X><C-L>
+"Complete file names.
+inoremap <C-F> <C-X><C-F>
