@@ -36,6 +36,9 @@ set showcmd
 "Enable auto completion menu after pressing <Tab> in Command mode
 set wildmenu
 
+"Always show the autocompletion menu with additional information
+set completeopt=menuone,popup
+
 "Set command history to 1000 commands
 set history=1000
 
