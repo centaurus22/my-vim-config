@@ -53,7 +53,7 @@ set scrolloff=5
 set sidescrolloff=5
 
 "Expand tabs to 4 charactes.
-setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
+set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
 
 "Display trailing whitespaces and non breaking spaces.
 exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
