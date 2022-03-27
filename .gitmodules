@@ -1,0 +1,3 @@
+[submodule "pack/lambdalisue/start/fern.vim"]
+	path = pack/lambdalisue/start/fern.vim
+	url = https://github.com/lambdalisue/fern.vim
