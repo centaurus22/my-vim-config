@@ -66,17 +66,6 @@ highlight LineNr ctermbg=black ctermfg=grey cterm=bold
 highlight ColorColumn ctermbg=magenta
 
 
-"*********
-"* NETRW *
-"*********
-
-"Disable the netrw banner
-let g:netrw_banner=0
-
-"Show tree listing in netrw
-let g:netrw_liststyle=3
-
-
 "****************
 "* KEY MAPPINGS *
 "****************
