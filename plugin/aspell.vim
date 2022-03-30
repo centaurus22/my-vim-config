@@ -1,2 +1,2 @@
 "Add a key combination to check the spelling of the current file.
-noremap ta :!aspell -x -c %<CR>
+noremap 1ta :!aspell -x -c %<CR>

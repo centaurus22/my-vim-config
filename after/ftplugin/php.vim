@@ -4,11 +4,11 @@ autocmd BufEnter *.php setlocal textwidth=120
 
 "Add a keyboard shortcut 'tl' to invoke the php linter and print the error
 "text of the first error if available.
-autocmd BufEnter *.php noremap <buffer> tl :compiler phplint <bar> :silent make <bar> redraw! <bar> :cfirst<cr>
+autocmd BufEnter *.php noremap <buffer> 1tl :compiler phplint <bar> :silent make <bar> redraw! <bar> :cfirst<cr>
 
 "Add a keyboard shortcut to invoke a php codesniffer and print the error
 "text of the first error if available.
-autocmd BufEnter *.php noremap <buffer> ts :compiler phpcodesniffer <bar> :silent make <bar> redraw! <bar> :cfirst<cr>
+autocmd BufEnter *.php noremap <buffer> 1ts :compiler phpcodesniffer <bar> :silent make <bar> redraw! <bar> :cfirst<cr>
 
 "Mark the 81th character in a line as color column. So, just the lines with
 "more than 80 characters are marked. 
