@@ -59,6 +59,9 @@ set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
 exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
 set list
 
+"Set the colorscheme
+colorscheme desert
+
 "Adjust color scheme of line numbering
 highlight LineNr ctermbg=black ctermfg=grey cterm=bold
 
