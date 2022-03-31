@@ -17,3 +17,6 @@ autocmd BufLeave *.php call clearmatches()
 
 "Autocommand to regenerate the tags when writing a php buffer
 autocmd BufWritePost *.php silent !ctags
+
+"Display tabs, trailing whitespaces and non breaking spaces.
+autocmd BufEnter *.php setlocal listchars=tab:»»,trail:·,nbsp:~"

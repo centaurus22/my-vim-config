@@ -56,7 +56,7 @@ set sidescrolloff=5
 set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
 
 "Display trailing whitespaces and non breaking spaces.
-exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
+set listchars=tab:\ \ ,trail:·,nbsp:~"
 set list
 
 "Set the colorscheme
