@@ -5,4 +5,4 @@ function! SourceIfExists(file)
   endif
 endfunction
 
-call SourceIfExists('.vimrclocal')
+call SourceIfExists('.project.vim')
