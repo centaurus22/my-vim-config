@@ -1,0 +1,5 @@
+"Place this file in your project's root folder as ".project.vim" to define a
+"vim configuration only for this project.
+
+"Sync your project with your web server
+noremap 1s rsync -ravl --delete --progress ./ /var/www/html/example/
