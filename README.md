@@ -1,6 +1,8 @@
 # my-vim-config
 My vim configuration supporting web development.
 
+![screen shot of my vim in action](screenshot.png)
+
 ## License
 
 This work is provided under the terms of the MIT license. Please take a look at
