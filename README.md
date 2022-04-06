@@ -1,5 +1,6 @@
 # my-vim-config
 My vim configuration supporting web development.
+The goal is to use as few plugins as possible.
 
 ![screen shot of my vim in action](screenshot.png)
 
