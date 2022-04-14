@@ -12,6 +12,7 @@ the LICENSE file for the full text.
 ## Features
 
 * Many settings to facilitate your live as a web developer.
+* PHP unit testing.
 * Integrated PHP linter and codesniffer taking advantage of the quickfix list.
 * Baked-in JavaScript linter and a unit testing framework for JavaScript.
 * Integrated spell checking.
@@ -23,13 +24,18 @@ the LICENSE file for the full text.
 To use all the implemented features the following external programs are needed.
 The configuration has been tested with the specified versions:
 
-* VIM - Vi IMproved 8.2
-* ESLint 8.8 (https://eslint.org/)
-* GNU Aspell 0.60 (http://aspell.net/)
-* Grip 4.6 (https://github.com/joeyespo/grip)
-* Mocha 9.2 (https://mochajs.org/)
-* PHP 7.4 (https://www.php.net/)
-* PHP_CodeSniffer 3.5 (https://github.com/squizlabs/PHP_CodeSniffer)
+| Program name      | Version | URL                         |
+|-------------------|---------|-----------------------------|
+| VIM - Vi IMproved | 8.2     |                             |
+| ESLint            | 8.8     | https://eslint.org/         |
+| GNU Aspell        | 0.60    | http://aspell.net/          |
+| Grip              | 4.6     | joeyespo/grip               |
+| Mocha             | 9.2     | https://mochajs.org/        |
+| PHP               | 7.4     | https://www.php.net/        |
+| PHPUnit           | 9.5     | https://phpunit.de/         |
+| PHP_CodeSniffer   | 3.5     | squizlabs/PHP_CodeSniffer   |
+
+URLs without http(s) are repositories on GitHub.
 
 ## Installation
 
@@ -37,6 +43,7 @@ Clone this git repository and place or link the repository folder under the
 name ".vim" in your home directory.
 
 ## Using
+
 Please check the vim configuration files.
 
 ## Contact
