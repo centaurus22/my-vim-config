@@ -45,7 +45,7 @@ set history=1000
 "Set the searchpath for find and other commands to the current directory and
 "all children. Ignore binary files.
 set path=.,**
-set wildignore=*/vendor/**,*.png,*.jpeg,*.jpg
+set wildignore=*/node_modules/**,*/vendor/**,*.png,*.jpeg,*.jpg
 
 "While moving the cursor the gap between the cursor and the border is always 
 "five chars if possible.
