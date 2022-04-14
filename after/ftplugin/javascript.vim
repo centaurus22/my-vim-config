@@ -16,3 +16,6 @@ autocmd BufEnter *.js setlocal listchars=tab:»»,trail:·,nbsp:~"
 "Add a keyboard shortcut 'tl' to invoke the ESLint and print the error
 "text of the first error if available.
 autocmd BufEnter *.js noremap <buffer> 1tl :compiler eslint <bar> :silent make <bar> redraw! <bar> :cfirst<cr>
+
+"Integrate the mocha unit testing framework.
+autocmd BufEnter *.js noremap <buffer> 1tu :!mocha<cr>
