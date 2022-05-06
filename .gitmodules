@@ -4,3 +4,6 @@
 [submodule "pack/lambdalisue/start/fern-hijack.vim"]
 	path = pack/lambdalisue/start/fern-hijack.vim
 	url = https://github.com/lambdalisue/fern-hijack.vim
+[submodule "pack/jamessan/start/vim-gnupg"]
+	path = pack/jamessan/start/vim-gnupg
+	url = https://github.com/jamessan/vim-gnupg
