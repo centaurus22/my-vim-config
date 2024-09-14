@@ -59,9 +59,6 @@ set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
 set listchars=tab:\ \ ,trail:·,nbsp:~"
 set list
 
-"Set the colorscheme
-"colorscheme desert
-
 "Adjust color scheme of line numbering
 highlight LineNr ctermbg=black ctermfg=grey cterm=bold
 
@@ -88,3 +85,4 @@ inoremap <C-O> <C-X><C-O>
 inoremap <C-L> <C-X><C-L>
 "Complete file names.
 inoremap <C-F> <C-X><C-F>
+
