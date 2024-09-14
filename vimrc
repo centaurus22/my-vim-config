@@ -60,7 +60,7 @@ set listchars=tab:\ \ ,trail:·,nbsp:~"
 set list
 
 "Set the colorscheme
-colorscheme desert
+"colorscheme desert
 
 "Adjust color scheme of line numbering
 highlight LineNr ctermbg=black ctermfg=grey cterm=bold
